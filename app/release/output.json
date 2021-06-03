@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "cn.bavelee.giaotone",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 9999999,
+      "versionName": "9999999",
+      "enabled": true,
+      "outputFile": "GiaoTone-release_9.9.9-9999999.apk"
+    }
+  ]
+}

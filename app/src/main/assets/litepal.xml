@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="giaotone" />
+    <version value="1" />
+
+    <list>
+        <mapping class="cn.bavelee.giaotone.model.SoundItem" />
+        <mapping class="cn.bavelee.giaotone.adapter.entity.ToneControlEntity" />
+    </list>
+
+</litepal>

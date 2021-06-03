@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_usages">
+        <item>默认(跟随系统)</item>
+        <item>媒体</item>
+        <item>通知</item>
+        <item>铃声</item>
+        <item>闹钟</item>
+    </string-array>
+    <string-array name="raw_sounds">
+        <item>不开心就止于此吧(海绵宝宝)</item>
+        <item>不开心就止于此吧(女生)</item>
+        <item>Giao 哥</item>
+        <item>么么哒</item>
+        <item>提莫队长</item>
+    </string-array>
+    <string-array name="audio_usages_values">
+        <item>default</item>
+        <item>media</item>
+        <item>notification</item>
+        <item>ringtone</item>
+        <item>alarm</item>
+    </string-array>
+    <string-array name="time_entries">
+        <item>禁用</item>
+        <item> 1 秒</item>
+        <item> 2 秒</item>
+        <item> 3 秒</item>
+        <item> 4 秒</item>
+        <item> 5 秒</item>
+        <item> 6 秒</item>
+        <item> 7 秒</item>
+        <item> 8 秒</item>
+        <item> 9 秒</item>
+        <item>10 秒</item>
+    </string-array>
+    <string-array name="time_entry_values">
+        <item>none</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+        <item>10000</item>
+    </string-array>
+    <string-array name="sound_pickers">
+        <item>文件管理器</item>
+        <item>音乐 APP</item>
+        <item>@string/internal_audio_searcher</item>
+    </string-array>
+    <string-array name="sound_picker_values">
+        <item>file_manager</item>
+        <item>audio_app</item>
+        <item>internal_audio_searcher</item>
+    </string-array>
+    <string-array name="servers">
+        <item>腾讯码市(推荐)</item>
+        <item>Gitee 码云</item>
+        <item>Github</item>
+    </string-array>
+    <string-array name="server_values">
+        <item>@string/default_server</item>
+        <item>https://gitee.com/Bave/giao-tone-server/raw/master</item>
+        <item>https://raw.githubusercontent.com/bavelee/giao-tone-server/master/</item>
+    </string-array>
+    <string name="internal_audio_searcher">内置音频搜索器</string>
+</resources>

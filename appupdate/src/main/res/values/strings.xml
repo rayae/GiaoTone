@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textAppUpdateTest">新增 登录后触发编译\n新增 插件权限校验\n新增 微信字体大小设置\n新增 支持代码按需注入lazyload\n新增 云开发数据库自动查询分析与索引提示\n新增 自动化支持获取体验评分报告\n新增 提供新的构建 npm 能力\n修复 旧app.json包含有index页面的情况下，删除app.json，重新建一个有index页面的app.json的时候，不会新增index页面\n新增 支持直接在自动预览界面切换推送到手机/桌面端微信\n新增 支持直接在自动真机调试界面切换推送到手机/桌面端微信\n新增 getPerformance 部分性能指标\n优化 创建代码片段时显示“请输入导入链接”等错误提示\n优化 安装模拟器插件后，需要手动重启才能使用\n优化 添加模拟器插件/调试器插件后，无须重启工具可正常运行\n优化 预览和真机调试的界面交互\n修复 调试器面板 mock 右键菜单失效的问题 反馈详情\n修复 使用 wasm 重新编译项目存在内存泄漏\n修复 自动预览tsc 失败一次后，再次预览无响应\n修复 模拟器在 Tabbar 设置为 top 时样式错乱的问题 反馈详情\n修复 游戏引擎弹窗分包逻辑失效\n修复 小游戏模拟器白屏，控制台提示__virtualDOM__未定义\n修复 FileSystemManager.stat 工具和真机返回的path格式不一致\n修复 小游戏开放数据域使用增强编译异常的问题\n修复 windows 项目列表界面，底部工具栏丢失的问题 反馈详情\n修复 自定义 tabbar 文字展示不完整问题\n修复 wx.compressImage 返回 tmpFilePath 多了 undefined 反馈详情\n修复 Windows 下最大化可能遮挡任务栏的问题 反馈详情\n修复 wx.compressImage 返回错误 反馈详情\n修复 首次编译 wx.getLaunchOptionsSync 结果可能错误的问题\n修复 WXML/WXSS 压缩错误问题\n修复 从网页点击导入代码片段会导致工具卡死\n修复 windows 关闭新版文件监听模块后，保存project.config.json时会报错\n修复 修改 project.config.json 里的 appid 不生效的问题 反馈详情\n修复 导入链接项目已被删除时能够打开的问题
+2020.06.09 更新说明</string>
+</resources>

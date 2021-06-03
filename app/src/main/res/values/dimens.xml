@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeBig">22sp</dimen>
+    <dimen name="textSizeFAQTitle">20sp</dimen>
+    <dimen name="textSizeFAQContent">14sp</dimen>
+    <dimen name="textSizeNormal">14sp</dimen>
+    <dimen name="textSizeSmall">12sp</dimen>
+    <dimen name="textSizeAction">16sp</dimen>
+    <dimen name="textSizeHeader">15sp</dimen>
+    <dimen name="paddingNormal">15dp</dimen>
+    <dimen name="paddingSmall">8dp</dimen>
+    <dimen name="paddingHeader">12dp</dimen>
+</resources>

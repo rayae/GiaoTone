@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6F9C3B</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">#E95D22</color>
+    <color name="colorPlugIn">@color/colorPrimary</color>
+    <color name="colorPlugOut">#f06966</color>
+    <color name="colorBatteryLevel">#0072BB</color>
+    <color name="colorHeader">#999999</color>
+    <color name="colorGray">#5C5C5C</color>
+    <color name="colorError">#F44336</color>
+    <color name="colorScreen">#009688</color>
+    <color name="colorAction">#4DB6AC</color>
+</resources>

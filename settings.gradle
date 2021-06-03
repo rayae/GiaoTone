@@ -1,0 +1,4 @@
+include ':appupdate'
+include ':module_donatedialog'
+include ':app'
+rootProject.name = "Giao Tone"

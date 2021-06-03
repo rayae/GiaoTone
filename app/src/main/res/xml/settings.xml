@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/settings_sound"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:defaultValue="default"
+            android:dialogTitle="@string/settings_sound_channel"
+            android:entries="@array/audio_usages"
+            android:entryValues="@array/audio_usages_values"
+            android:key="key_audio_usage"
+            android:summary="@string/desc_settings_sound_channel"
+            android:title="@string/settings_sound_channel"
+            app:iconSpaceReserved="false" />
+        <SeekBarPreference
+            android:defaultValue="0"
+            android:key="settings_sound_standalone_volume"
+            android:max="100"
+            android:summary="@string/desc_settings_sound_standalone_volume"
+            android:title="@string/settings_sound_standalone_volume"
+            app:iconSpaceReserved="false"
+            app:min="0"
+            app:showSeekBarValue="true" />
+        <ListPreference
+            android:defaultValue="none"
+            android:dialogTitle="@string/title_avoid_mistake_touch"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/time_entry_values"
+            android:key="key_avoid_mistake_touch"
+            android:summary="@string/desc_avoid_mistake_touch"
+            android:title="@string/avoid_mistake_touch"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            android:defaultValue="none"
+            android:dialogTitle="@string/title_avoid_accidental_plug_out"
+            android:entries="@array/time_entries"
+            android:entryValues="@array/time_entry_values"
+            android:key="key_avoid_accidental_plug_out"
+            android:summary="@string/desc_avoid_accidental_plug_out"
+            android:title="@string/avoid_accidental_plug_out"
+            app:iconSpaceReserved="false" />
+        <ListPreference
+            android:entries="@array/sound_pickers"
+            android:entryValues="@array/sound_picker_values"
+            android:key="key_sound_picker"
+            android:summary="@string/desc_settings_sound_picker"
+            android:title="@string/settings_sound_picker"
+            app:defaultValue="internal_audio_searcher"
+            app:iconSpaceReserved="false" />
+        <SwitchPreference
+            android:key="key_mute_while_playing"
+            android:summary="@string/desc_settings_mute_while_playing"
+            android:title="@string/settings_mute_while_playing"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/settings_damn_options"
+        app:iconSpaceReserved="false">
+        <PreferenceScreen
+            android:defaultValue="false"
+            android:key="key_ignore_battery_optimization"
+            android:summary="@string/desc_ignore_battery_optimization"
+            android:title="@string/ignore_battery_optimization"
+            app:iconSpaceReserved="false" />
+        <PreferenceScreen
+            android:defaultValue="false"
+            android:key="key_auto_start"
+            android:summary="@string/desc_auto_start"
+            android:title="@string/auto_start"
+            app:iconSpaceReserved="false" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="key_exclude_from_recents"
+            android:summary="@string/desc_exclude_from_recents"
+            android:title="@string/exclude_from_recents"
+            app:iconSpaceReserved="false" />
+        <SwitchPreference
+            android:key="key_use_floating_service"
+            android:summary="@string/desc_use_floating_service"
+            android:title="@string/use_floating_service"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+        <SwitchPreference
+            android:key="key_rapid_check_screen_off"
+            android:summary="@string/desc_rapid_check_screen_off"
+            android:title="@string/rapid_check_screen_off"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/custom_enable_time_range"
+        app:iconSpaceReserved="false">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="key_custom_time_enabled"
+            android:summary="@string/desc_custom_time_enabled"
+            android:title="@string/enabled"
+            app:iconSpaceReserved="false" />
+        <PreferenceScreen
+            android:key="key_custom_time_start"
+            android:title="@string/custom_enable_time_start"
+            app:defaultValue="00:00"
+            app:iconSpaceReserved="false" />
+        <PreferenceScreen
+            android:key="key_custom_time_end"
+            android:title="@string/custom_enable_time_end"
+            app:defaultValue="00:00"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/settings_server"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:defaultValue="@string/default_server"
+            android:dialogTitle="@string/settings_main_server"
+            android:entries="@array/servers"
+            android:entryValues="@array/server_values"
+            android:key="key_main_server"
+            android:summary="@string/desc_settings_main_server"
+            android:title="@string/settings_main_server"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/settings_debug"
+        app:iconSpaceReserved="false">
+        <PreferenceScreen
+            android:key="key_show_log"
+            android:summary="@string/desc_settings_show_log"
+            android:title="@string/settings_show_log"
+            app:iconSpaceReserved="false" />
+        <PreferenceScreen
+            android:key="key_check_service"
+            android:summary="@string/desc_check_service"
+            android:title="@string/settings_check_service"
+            app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

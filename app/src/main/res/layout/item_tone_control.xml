@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/paddingNormal"
+    android:layout_marginEnd="@dimen/paddingNormal"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="@dimen/paddingNormal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="充电提示音"
+            android:textColor="@color/colorPlugIn"
+            android:textSize="@dimen/textSizeBig"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSoundFile"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="音频文件 : "
+            android:textSize="@dimen/textSizeNormal" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivPlay"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tvSoundFile"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_play" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCustomSound"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/tvSoundFile"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/change_sound"
+            android:textColor="@color/colorPlugIn"
+            android:textSize="@dimen/textSizeAction" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvModifyLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/tvSoundFile"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/tvCustomSound"
+            android:gravity="center"
+            android:text="@string/change_level"
+            android:textColor="@color/colorPlugIn"
+            android:textSize="@dimen/textSizeAction" />
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/soundSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tvTitle"
+            android:layout_alignParentRight="true"
+            android:checked="true" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
